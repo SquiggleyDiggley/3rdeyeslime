@@ -4,8 +4,6 @@ import WelcomePage from '../components/WelcomePage'
 
 export default function Index() {
   return (
-    <Layout>
-      <WelcomePage />
-    </Layout>
+    <div style={{ color: 'white', background: 'black', minHeight: '100vh' }}>test</div>
   )
 }
