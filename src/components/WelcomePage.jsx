@@ -27,6 +27,17 @@ export default function WelcomePage() {
       </main>
 
       <style jsx>{`
+  :global(html, body, #__next) {
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+    background: #000;
+  }
+
+  :global(*) {
+    box-sizing: border-box;
+  }
+
         .welcome-page {
           position: relative;
           min-height: 100vh;
@@ -34,6 +45,7 @@ export default function WelcomePage() {
           align-items: center;
           justify-content: center;
           overflow: hidden;
+          margin: 0;
           background: #050505;
           color: #ffffff;
           font-family: Arial, Helvetica, sans-serif;
